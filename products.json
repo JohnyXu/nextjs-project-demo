@@ -1,0 +1,154 @@
+[
+  {
+    "id": 1,
+    "name": "Mac book",
+    "content": "This is the Mac book sold by Apple",
+    "meta_description": "The mac book",
+    "meta_title": "Mac book",
+    "price": 2000,
+    "slug": "mac-book",
+    "published_at": "2021-05-15T01:23:27.524Z",
+    "created_at": "2021-05-15T01:23:23.369Z",
+    "updated_at": "2021-05-15T01:23:27.539Z",
+    "image": {
+      "id": 2,
+      "name": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp16touch-space-select-201911_GEO_AU?wid=1808&hei=1686&fmt=jpeg&qlt=80&.v=1573242755595",
+      "alternativeText": "",
+      "caption": "",
+      "width": 1808,
+      "height": 1686,
+      "formats": {
+        "thumbnail": {
+          "name": "thumbnail_https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp16touch-space-select-201911_GEO_AU?wid=1808&hei=1686&fmt=jpeg&qlt=80&.v=1573242755595",
+          "hash": "thumbnail_mbp16touch_space_select_201911_GEO_AU_wid_1808_and_hei_1686_and_fmt_jpeg_and_qlt_80_and_50ad7b9b03",
+          "ext": ".v=1573242755595",
+          "mime": "image/jpeg",
+          "width": 167,
+          "height": 156,
+          "size": 6.46,
+          "path": null,
+          "url": "/uploads/thumbnail_mbp16touch_space_select_201911_GEO_AU_wid_1808_and_hei_1686_and_fmt_jpeg_and_qlt_80_and_50ad7b9b03.v=1573242755595"
+        },
+        "large": {
+          "name": "large_https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp16touch-space-select-201911_GEO_AU?wid=1808&hei=1686&fmt=jpeg&qlt=80&.v=1573242755595",
+          "hash": "large_mbp16touch_space_select_201911_GEO_AU_wid_1808_and_hei_1686_and_fmt_jpeg_and_qlt_80_and_50ad7b9b03",
+          "ext": ".v=1573242755595",
+          "mime": "image/jpeg",
+          "width": 1000,
+          "height": 933,
+          "size": 96.82,
+          "path": null,
+          "url": "/uploads/large_mbp16touch_space_select_201911_GEO_AU_wid_1808_and_hei_1686_and_fmt_jpeg_and_qlt_80_and_50ad7b9b03.v=1573242755595"
+        },
+        "medium": {
+          "name": "medium_https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp16touch-space-select-201911_GEO_AU?wid=1808&hei=1686&fmt=jpeg&qlt=80&.v=1573242755595",
+          "hash": "medium_mbp16touch_space_select_201911_GEO_AU_wid_1808_and_hei_1686_and_fmt_jpeg_and_qlt_80_and_50ad7b9b03",
+          "ext": ".v=1573242755595",
+          "mime": "image/jpeg",
+          "width": 750,
+          "height": 699,
+          "size": 57.03,
+          "path": null,
+          "url": "/uploads/medium_mbp16touch_space_select_201911_GEO_AU_wid_1808_and_hei_1686_and_fmt_jpeg_and_qlt_80_and_50ad7b9b03.v=1573242755595"
+        },
+        "small": {
+          "name": "small_https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp16touch-space-select-201911_GEO_AU?wid=1808&hei=1686&fmt=jpeg&qlt=80&.v=1573242755595",
+          "hash": "small_mbp16touch_space_select_201911_GEO_AU_wid_1808_and_hei_1686_and_fmt_jpeg_and_qlt_80_and_50ad7b9b03",
+          "ext": ".v=1573242755595",
+          "mime": "image/jpeg",
+          "width": 500,
+          "height": 466,
+          "size": 31.22,
+          "path": null,
+          "url": "/uploads/small_mbp16touch_space_select_201911_GEO_AU_wid_1808_and_hei_1686_and_fmt_jpeg_and_qlt_80_and_50ad7b9b03.v=1573242755595"
+        }
+      },
+      "hash": "mbp16touch_space_select_201911_GEO_AU_wid_1808_and_hei_1686_and_fmt_jpeg_and_qlt_80_and_50ad7b9b03",
+      "ext": ".v=1573242755595",
+      "mime": "image/jpeg",
+      "size": 260.58,
+      "url": "/uploads/mbp16touch_space_select_201911_GEO_AU_wid_1808_and_hei_1686_and_fmt_jpeg_and_qlt_80_and_50ad7b9b03.v=1573242755595",
+      "previewUrl": null,
+      "provider": "local",
+      "provider_metadata": null,
+      "created_at": "2021-05-15T01:23:19.119Z",
+      "updated_at": "2021-05-15T01:23:19.127Z"
+    }
+  },
+  {
+    "id": 2,
+    "name": "iPhone",
+    "content": "This is the IPhone sold by Apple",
+    "meta_description": "The iPhone",
+    "meta_title": "The newest iPhone",
+    "price": 2200,
+    "slug": "i-phone",
+    "published_at": "2021-05-15T01:26:13.099Z",
+    "created_at": "2021-05-15T01:26:10.760Z",
+    "updated_at": "2021-05-15T01:26:13.112Z",
+    "image": {
+      "id": 4,
+      "name": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/iphone-se-family-select-2020?wid=882&amp;hei=1058&amp;fmt=jpeg&amp;qlt=80&amp;.v=1586794486444",
+      "alternativeText": "",
+      "caption": "",
+      "width": 882,
+      "height": 1058,
+      "formats": {
+        "thumbnail": {
+          "name": "thumbnail_https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/iphone-se-family-select-2020?wid=882&amp;hei=1058&amp;fmt=jpeg&amp;qlt=80&amp;.v=1586794486444",
+          "hash": "thumbnail_iphone_se_family_select_2020_wid_882_and_amp_hei_1058_and_amp_fmt_jpeg_and_amp_qlt_80_and_amp_c7409f4c1d",
+          "ext": ".v=1586794486444",
+          "mime": "image/jpeg",
+          "width": 130,
+          "height": 156,
+          "size": 3.57,
+          "path": null,
+          "url": "/uploads/thumbnail_iphone_se_family_select_2020_wid_882_and_amp_hei_1058_and_amp_fmt_jpeg_and_amp_qlt_80_and_amp_c7409f4c1d.v=1586794486444"
+        },
+        "large": {
+          "name": "large_https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/iphone-se-family-select-2020?wid=882&amp;hei=1058&amp;fmt=jpeg&amp;qlt=80&amp;.v=1586794486444",
+          "hash": "large_iphone_se_family_select_2020_wid_882_and_amp_hei_1058_and_amp_fmt_jpeg_and_amp_qlt_80_and_amp_c7409f4c1d",
+          "ext": ".v=1586794486444",
+          "mime": "image/jpeg",
+          "width": 834,
+          "height": 1000,
+          "size": 50.99,
+          "path": null,
+          "url": "/uploads/large_iphone_se_family_select_2020_wid_882_and_amp_hei_1058_and_amp_fmt_jpeg_and_amp_qlt_80_and_amp_c7409f4c1d.v=1586794486444"
+        },
+        "medium": {
+          "name": "medium_https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/iphone-se-family-select-2020?wid=882&amp;hei=1058&amp;fmt=jpeg&amp;qlt=80&amp;.v=1586794486444",
+          "hash": "medium_iphone_se_family_select_2020_wid_882_and_amp_hei_1058_and_amp_fmt_jpeg_and_amp_qlt_80_and_amp_c7409f4c1d",
+          "ext": ".v=1586794486444",
+          "mime": "image/jpeg",
+          "width": 625,
+          "height": 750,
+          "size": 33.38,
+          "path": null,
+          "url": "/uploads/medium_iphone_se_family_select_2020_wid_882_and_amp_hei_1058_and_amp_fmt_jpeg_and_amp_qlt_80_and_amp_c7409f4c1d.v=1586794486444"
+        },
+        "small": {
+          "name": "small_https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/iphone-se-family-select-2020?wid=882&amp;hei=1058&amp;fmt=jpeg&amp;qlt=80&amp;.v=1586794486444",
+          "hash": "small_iphone_se_family_select_2020_wid_882_and_amp_hei_1058_and_amp_fmt_jpeg_and_amp_qlt_80_and_amp_c7409f4c1d",
+          "ext": ".v=1586794486444",
+          "mime": "image/jpeg",
+          "width": 417,
+          "height": 500,
+          "size": 17.76,
+          "path": null,
+          "url": "/uploads/small_iphone_se_family_select_2020_wid_882_and_amp_hei_1058_and_amp_fmt_jpeg_and_amp_qlt_80_and_amp_c7409f4c1d.v=1586794486444"
+        }
+      },
+      "hash": "iphone_se_family_select_2020_wid_882_and_amp_hei_1058_and_amp_fmt_jpeg_and_amp_qlt_80_and_amp_c7409f4c1d",
+      "ext": ".v=1586794486444",
+      "mime": "image/jpeg",
+      "size": 55.51,
+      "url": "/uploads/iphone_se_family_select_2020_wid_882_and_amp_hei_1058_and_amp_fmt_jpeg_and_amp_qlt_80_and_amp_c7409f4c1d.v=1586794486444",
+      "previewUrl": null,
+      "provider": "local",
+      "provider_metadata": null,
+      "created_at": "2021-05-15T01:25:58.435Z",
+      "updated_at": "2021-05-15T01:25:58.444Z"
+    }
+  }
+]
