@@ -9,7 +9,7 @@ export default function Footer() {
           Magic
         </a>
       </div>
-      <a href="https://github.com">
+      <a href="https://nextjs.org/docs/getting-started">
         <h4>
           Learn to code
           <img className="img__yt" src="/nextjs.png" />

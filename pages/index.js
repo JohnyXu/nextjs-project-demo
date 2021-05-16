@@ -3,10 +3,9 @@ import Image from 'next/image';
 import Link from 'next/link';
 import styles from '../styles/Home.module.css';
 
-import products from '../products.json';
-import { fromImageToUrl } from '../utils/urls';
+import { fromImageToUrl, API_URL } from '../utils/urls';
 
-export default function Home() {
+export default function Home({ products }) {
   return (
     <div className={styles.container}>
       <Head>
@@ -34,4 +33,17 @@ export default function Home() {
       })}
     </div>
   );
+}
+
+export async function getStaticProps() {
+  // Fetch the products
+  const res_product = await fetch(`${API_URL}/products/`);
+  const products = await res_product.json();
+
+  // Return the products as props
+  return {
+    props: {
+      products,
+    },
+  };
 }
