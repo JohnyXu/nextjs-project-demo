@@ -15,3 +15,13 @@
 
     cursor:pointer;
 }
+
+.auth {
+    position:absolute;
+    top: 0;
+    right: 0;
+}
+
+.auth img {
+    max-width: 24px;
+}

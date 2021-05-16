@@ -1,12 +1,15 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import styles from '../styles/Header.module.css';
+import AuthContext from '../context/AuthContext';
 
 export default function Header() {
   const router = useRouter();
   const isHome = router.pathname === '/';
 
+  const { user } = useContext(AuthContext);
+  console.log('user:', user);
   const goBack = (event) => {
     event.preventDefault();
     router.back();
@@ -26,6 +29,19 @@ export default function Header() {
             <h1>The E-commerce</h1>
           </a>
         </Link>
+      </div>
+      <div className={styles.auth}>
+        {user ? (
+          <Link href="/account">
+            <a>
+              <img src="/user_avatar.png" alt={user.email} />
+            </a>
+          </Link>
+        ) : (
+          <Link href="/login">
+            <a>Login</a>
+          </Link>
+        )}
       </div>
     </header>
   );
