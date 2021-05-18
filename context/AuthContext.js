@@ -40,7 +40,7 @@ export const AuthProvider = (props) => {
         setUser({ email });
 
         const token = await getToken();
-        console.log('login Token:', token);
+        // console.log('login Token:', token);
       }
     } catch (err) {}
   };

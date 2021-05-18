@@ -2,6 +2,7 @@ import React from 'react';
 import Head from 'next/head';
 import { API_URL, fromImageToUrl } from '../../utils/urls';
 import { twoDecimals } from '../../utils/format';
+import BuyButton from '../../components/BuyButton';
 
 function Product({ product }) {
   return (
@@ -15,7 +16,9 @@ function Product({ product }) {
       <h3>{product.name}</h3>
       <img src={fromImageToUrl(product.image)} />
       <h3>{product.name}</h3>
-      <p>${twoDecimals(product.price)}</p>
+      <p>
+        ${twoDecimals(product.price)} <BuyButton product={product} />
+      </p>
     </div>
   );
 }

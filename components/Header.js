@@ -9,7 +9,7 @@ export default function Header() {
   const isHome = router.pathname === '/';
 
   const { user } = useContext(AuthContext);
-  console.log('user:', user);
+  // console.log('user:', user);
   const goBack = (event) => {
     event.preventDefault();
     router.back();
